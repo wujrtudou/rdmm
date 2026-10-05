@@ -1,0 +1,23 @@
+\begin{table}[!ht]
+\centering
+\caption{Empirical computational cost as sample size n and observed dimension p are varied while the fitted architecture is held fixed at K=(2,2) and r=(5,2). Timings are wall-clock seconds from sequential fits; entries are means with standard deviations in parentheses. Seconds per iteration separates per-iteration computational cost from differences in convergence iteration counts.}
+\label{tab:computational-cost}
+\begin{tabular}{c c l c c c c}
+\hline
+n & p & Method & Runtime\\_seconds & Iterations & Seconds\\_per\\_iteration & Success\\_rate \\
+\hline
+250 & 20 & DGMM & 0.49 (0.18) & 19.0 (7.2) & 0.026 (0.006) & 1.000 \\
+250 & 20 & RDMM & 1.54 (0.31) & 122.2 (23.3) & 0.013 (0.001) & 1.000 \\
+500 & 20 & DGMM & 0.83 (0.33) & 20.7 (8.1) & 0.040 (0.002) & 1.000 \\
+500 & 20 & RDMM & 2.19 (0.57) & 130.8 (33.7) & 0.017 (0.000) & 1.000 \\
+1000 & 20 & DGMM & 1.46 (0.57) & 20.6 (8.0) & 0.071 (0.002) & 1.000 \\
+1000 & 20 & RDMM & 3.69 (1.37) & 146.6 (56.1) & 0.025 (0.001) & 1.000 \\
+2000 & 20 & DGMM & 2.64 (0.70) & 19.2 (5.1) & 0.137 (0.004) & 1.000 \\
+2000 & 20 & RDMM & 5.18 (1.91) & 120.0 (44.8) & 0.043 (0.001) & 1.000 \\
+1000 & 40 & DGMM & 1.58 (0.62) & 19.2 (7.8) & 0.082 (0.003) & 1.000 \\
+1000 & 40 & RDMM & 6.04 (1.57) & 134.7 (35.3) & 0.045 (0.001) & 1.000 \\
+1000 & 80 & DGMM & 1.55 (0.76) & 13.1 (6.9) & 0.121 (0.007) & 1.000 \\
+1000 & 80 & RDMM & 16.39 (5.63) & 135.2 (46.9) & 0.121 (0.001) & 1.000 \\
+\hline
+\end{tabular}
+\end{table}

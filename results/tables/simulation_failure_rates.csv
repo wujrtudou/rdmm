@@ -1,0 +1,11 @@
+"Experiment","Model","Failure_rate"
+"Simulation 1","DGMM",0
+"Simulation 1","RDMM",0
+"Dimension sensitivity","DGMM",0
+"Dimension sensitivity","RDMM",0
+"Gaussian contamination","DGMM",0
+"Gaussian contamination","RDMM",0
+"Covariance sensitivity","DGMM",0
+"Covariance sensitivity","RDMM",0
+"Computational cost","DGMM",0
+"Computational cost","RDMM",0

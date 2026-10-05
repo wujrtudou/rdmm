@@ -1,0 +1,21 @@
+\begin{table}[!ht]
+\centering
+\caption{Sensitivity to slight misspecification of the latent dimensions. Data are generated with (r1,r2)=(5,2) and nu=4. Entries are Monte Carlo means with standard deviations in parentheses.}
+\label{tab:dimension-sensitivity}
+\begin{tabular}{lcccccccc}
+\hline
+Architecture & r1 & r2 & Method & Estimated\\_nu & First\\_layer\\_ARI & First\\_layer\\_MR & Pathway\\_ARI & Pathway\\_MR \\
+\hline
+r1 under & 4 & 2 & DGMM & -- & 0.527 (0.318) & 0.172 (0.156) & 0.243 (0.163) & 0.510 (0.136) \\
+r1 under & 4 & 2 & RDMM & 3.926 (0.198) & 0.923 (0.045) & 0.020 (0.020) & 0.728 (0.064) & 0.118 (0.047) \\
+r2 under & 5 & 1 & DGMM & -- & 0.626 (0.304) & 0.130 (0.141) & 0.253 (0.123) & 0.514 (0.091) \\
+r2 under & 5 & 1 & RDMM & 3.973 (0.206) & 0.927 (0.045) & 0.019 (0.021) & 0.737 (0.056) & 0.112 (0.041) \\
+true & 5 & 2 & DGMM & -- & 0.641 (0.291) & 0.121 (0.130) & 0.271 (0.136) & 0.492 (0.110) \\
+true & 5 & 2 & RDMM & 3.984 (0.206) & 0.927 (0.045) & 0.019 (0.021) & 0.735 (0.061) & 0.114 (0.046) \\
+r1 over & 6 & 2 & DGMM & -- & 0.715 (0.245) & 0.091 (0.107) & 0.294 (0.110) & 0.488 (0.086) \\
+r1 over & 6 & 2 & RDMM & 3.986 (0.206) & 0.924 (0.047) & 0.020 (0.021) & 0.728 (0.061) & 0.117 (0.045) \\
+r2 over & 5 & 3 & DGMM & -- & 0.669 (0.278) & 0.109 (0.122) & 0.301 (0.154) & 0.462 (0.132) \\
+r2 over & 5 & 3 & RDMM & 3.984 (0.204) & 0.927 (0.045) & 0.019 (0.021) & 0.739 (0.057) & 0.112 (0.042) \\
+\hline
+\end{tabular}
+\end{table}
